@@ -1,10 +1,27 @@
 OBSERVACIONES DURANTE LAS MEDICIONES
 
-* Ingresamos un diente de cierra, el cual con el filtro PB se convierte en una cuadratica
+* Ingresamos una cuadratica, el cual con el filtro PB se convierte en un diente de sierra
 
 * A ese diente de cierra, lo modulamos con una continua. Obteniendo un pwm, ya que cuando los dientes de sierra supere
 la tension de la continua  
 
 * Las salidas PWM1 Y PWM2 son conjugadas, pero como esta ahora el circuito posee un problema ya q poseen distinos Anchos de pulsos
 
-*
+* Onda cuadrada va despues, se ve con OSCILADORES
+
+* VALORES USADOS: Vdc = 2.5V, V_pwm = 5V con f = 10kHz y duty = 50%
+
+-------------------------------------------------------------------------
+
+SOBRE EL DISIPADOR DE MOSFET
+
+El mosfet posee varias temperaturas [juntura, capsula, disipador, ambiente]
+
+La cual se propaga por conveccion, la cual representamos por un equivalente:
+	resistencias termicas EN SERIE 		(Titta j_c, Titta c_d, Titta d_a)
+	conectadas a una FUENTE DE CORRIENTE 	(Potencia disipada Pd)
+	donde las tensiones son TEMPERATURAS 	(Tj, Tc, Td, Ta)
+
+Estos parametros definiran los parametros del disipador (si es que se va a comprar)
+
+SOON TM: PDF CALCULO DE DISIPADOR
