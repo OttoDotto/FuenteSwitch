@@ -1,0 +1,10 @@
+OBSERVACIONES DURANTE LAS MEDICIONES
+
+* Ingresamos un diente de cierra, el cual con el filtro PB se convierte en una cuadratica
+
+* A ese diente de cierra, lo modulamos con una continua. Obteniendo un pwm, ya que cuando los dientes de sierra supere
+la tension de la continua  
+
+* Las salidas PWM1 Y PWM2 son conjugadas, pero como esta ahora el circuito posee un problema ya q poseen distinos Anchos de pulsos
+
+*
